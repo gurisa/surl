@@ -1,0 +1,321 @@
+/*
+  Author 		   : Raka Suryaardi Widjaja;
+  Copyright    : Copyright (c) 2016 Gurisa.Com All Rights Reserved;
+  Version      : 1.0;
+*/
+
+@font-face {
+  font-family: "OpenSans";
+  src:url("conf/fonts/OpenSans.ttf");
+}
+
+body {
+	font-family: "OpenSans","Verdana","Arial","Times New Roman";
+	font-size:13pt;
+  background-color:#ecf0f1;
+}
+
+body img {
+  max-width:100%;
+}
+
+/* Navbar */
+
+.navbar-default {
+  background-color:#0a58c1;
+  border-color:transparent;
+  padding:5px;
+}
+/* title */
+.navbar-default .navbar-brand {
+  color: #777;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #5E5E5E;
+}
+
+.navbar-default .navbar-nav > li {
+  padding:0px 5px 0px 0px;
+}
+
+.nav .navbar-nav {
+
+}
+/* link */
+.navbar-default .navbar-nav > li > a {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #333;
+  background-color:#ecf0f1;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #555;
+  background-color: #ecf0f1;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #555;
+  background-color: #D5D5D5;
+}
+/* caret */
+.navbar-default .navbar-nav > .dropdown > a .caret {
+  border-top-color: #777;
+  border-bottom-color: #777;
+}
+.navbar-default .navbar-nav > .dropdown > a:hover .caret,
+.navbar-default .navbar-nav > .dropdown > a:focus .caret {
+  border-top-color: #333;
+  border-bottom-color: #333;
+}
+.navbar-default .navbar-nav > .open > a .caret,
+.navbar-default .navbar-nav > .open > a:hover .caret,
+.navbar-default .navbar-nav > .open > a:focus .caret {
+  border-top-color: #555;
+  border-bottom-color: #555;
+}
+/* mobile version */
+.navbar-default .navbar-toggle {
+  border-color: #DDD;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #DDD;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #CCC;
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #777;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #333;
+  }
+}
+
+/* Header */
+
+div.header {
+	margin:80px 0px 0px 0px;
+	background-color:#ecf0f1;
+	padding:5px;
+}
+
+img.header-logo {
+  padding:0px 0px 0px 10px;
+}
+
+p.header-description {
+	margin:5px 0px 5px 0px;
+	padding:0px 0px 0px 10px;
+	color:#3e3e3e;
+  font-size:16pt;
+}
+
+div.widget {
+	margin:0px 0px 0px 0px;
+	background-color:#ecf0f1;
+	padding:5px;
+}
+
+/* Engine */
+
+div.engine {
+  margin:0px 0px 0px 0px;
+  background-color:#ecf0f1;
+  padding:5px;
+}
+
+div.short-form {
+  padding:5px;
+}
+
+textarea#links {
+  font-size:14pt;
+}
+
+div.col-links {
+  padding:5px 5px 0px 5px;
+}
+
+div.col-password {
+  padding:5px;
+}
+
+div.col-privacy {
+  padding:5px;
+}
+
+label.radio-inline {
+  padding:5px 0px 5px 0px;
+}
+
+input#short-button {
+  margin:5px;
+}
+
+div.widget-right {
+
+}
+
+div.short-information {
+  background-color:#3498db;
+  color:#1f1f1f;
+  padding:10px 5px 10px 5px;
+  word-wrap: break-word;
+  margin:5px;
+}
+
+div#results {
+  margin:5px 0px 5px 0px;
+  width:100%;
+  padding:10px 5px 10px 5px;
+}
+
+div.status-short {
+  margin:10px 0px 10px 0px;
+}
+
+div.status-short-progressbar {
+  width:100%;
+}
+
+div.shorten-result {
+  background-color:#419d2a;
+  color:#222;
+  font-weight:bold;
+  font-size:14pt;
+  margin:10px 0px 10px 0px;
+  text-align:center;
+  word-wrap:break-word;
+  padding:5px 0px 5px 0px;
+}
+
+div.shorten-result a {
+  color:#222;
+}
+
+div.shorten-result a:hover, div.shorten-result a:focus {
+  color:#222;
+}
+
+table.link-details {
+  table-layout: fixed;
+}
+
+/* Social */
+
+div.social-networks {
+  margin:15px 0px 0px 0px;
+  background-color:#2d87ef;
+  padding:20px 0px 20px 0px;
+	text-align:center;
+}
+
+div.social-networks img {
+	margin:0px 10px 0px 10px;
+	display:inline-block;
+}
+
+/* Footer */
+
+div.footer {
+  margin:0px 0px 0px 0px;
+  background-color:#0a58c1;
+  padding:30px 10px 10px 10px;
+}
+
+hr.sitemap{
+  color:#ecf0f1;
+  border:0px;
+  border-bottom:1px dashed #ecf0f1;
+  margin:10px 0px 15px 0px;
+}
+
+p.footer-title {
+  color:#222;
+  font-weight:bold;
+  font-size:16pt;
+}
+
+a.go-title {
+  color:#222;
+  font-weight:bold;
+  font-size:24pt;
+}
+
+a.go-title:hover, a.go-title:focus {
+  color:#222;
+}
+
+p.copyright {
+  margin:15px 0px 0px 0px;
+  color:#ecf0f1;
+}
+
+/* Custom */
+
+
+.link-white {
+  color:#ecf0f1;
+}
+
+.link-white:hover, .link-white:focus {
+  color:#ecf0f1;
+}
+
+.link-black {
+  color:#222;
+}
+
+.link-blackhover, .link-black:focus {
+  color:#222;
+}
+
+.btn-custom-blue {
+  background-color:#0a58c1;
+  margin:5px 0px 5px 0px;
+  font-size:14pt;
+}
+
+.btn-custom-blue:hover, .btn-custom-blue:focus {
+  background-color:#1064d5;
+  font-size:14pt;
+}
+
+.btn-custom-red {
+  background-color:#cf4520;
+  margin:5px 0px 5px 0px;
+  font-size:14pt;
+  border:1px solid #cf4520;
+}
+
+.btn-custom-red:hover, .btn-custom-red:focus {
+  background-color:#d25432;
+  font-size:14pt;
+  border:1px solid #d25432;
+}
+
+.btn-custom-green {
+  background-color:#419d2a;
+  margin:5px 0px 5px 0px;
+  font-size:14pt;
+}
+
+.btn-custom-green:hover, .btn-custom-green:focus {
+  background-color:#4baf33;
+  font-size:14pt;
+  border:1px solid #4baf33;
+}
+
+.break-word-wrap {
+  word-wrap:break-word;
+}
